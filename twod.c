@@ -2,17 +2,17 @@
 
 int main(){
     int row1, col1, row2, col2, i, j, k;
-    printf("Enter 1st arrays rows and columns.\n");
+    printf("Enter the number of rows and columns in the first array.\n");
     scanf("%d %d", &row1, &col1);
-    printf("Enter 2nd arrays rows and columns.\n");
+    printf("Enter the number of rows and columns in the second array.\n");
     scanf("%d %d", &row2, &col2);
 
     while(col1 != row2){
         printf("EError!\n1st matrix’s columns must match 2nd matrix’s rows.\n");
 
-        printf("Enter 1st arrays rows and columns.\n");
+        printf("Enter the number of rows and columns in the first array.\n");
         scanf("%d %d", &row1, &col1);
-        printf("Enter 2nd arrays rows and columns.\n");
+        printf("Enter the number of rows and columns in the second array.\n");
         scanf("%d %d", &row2, &col2);
     }
 
@@ -69,4 +69,5 @@ int main(){
         }
         printf("\n");
     }
+
 }
